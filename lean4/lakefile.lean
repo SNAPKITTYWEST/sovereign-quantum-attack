@@ -1,0 +1,2 @@
+package LogComplexity where
+  leanOptions := #[]

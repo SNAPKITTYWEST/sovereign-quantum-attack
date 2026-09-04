@@ -1,0 +1,15 @@
+{
+  "architecture": "Majorana Zero Mode Array",
+  "lattice": "Hexagonal",
+  "n_logical_qubits": 10,
+  "n_mzms": 20,
+  "hop_cycles": 12,
+  "total_cycles": 1440,
+  "routing_table": [
+    {"step": 1, "time": 0, "op": "sigma_1", "qubits": "q1<->q2", "mzms": "gamma_1..4"},
+    {"step": 2, "time": 0, "op": "sigma_3", "qubits": "q3<->q4", "mzms": "gamma_5..8"},
+    {"step": 3, "time": 0, "op": "sigma_5", "qubits": "q5<->q6", "mzms": "gamma_9..12"},
+    {"step": 4, "time": 0, "op": "sigma_7", "qubits": "q7<->q8", "mzms": "gamma_13..16"},
+    {"step": 5, "time": 0, "op": "sigma_9", "qubits": "q9<->q10", "mzms": "gamma_17..20"}
+  ]
+}
